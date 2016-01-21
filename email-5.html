@@ -4,7 +4,24 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>ThermoSpas</title>
   <style type="text/css">
+    /*RESET STYLES*/
+    body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+    table{border-collapse:collapse;}
+    img, a img{border:0; outline:none; text-decoration:none;}
+    h1, h2, h3, h4, h5, h6{margin:0; padding:0;}
 
+    /*CLIENT-SPECIFIC STYLES*/
+    ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /*hotmail/outlook*/
+    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div{line-height: 100%;} /*homail/outlook*/
+    table, td{mso-table-lspace:0pt;} /*Outlook 2007 and up*/
+    #outlook a{padding:0;} /*force Outlook 2007 and up provide a "view in browser message"*/
+    img{-ms-interpolation-mode: bicubic;} /*force IE to smoothly render resized images*/
+    body, table, td, p, a, li, blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;} /*prevent from changing declared text sizes*/
+
+    /*GENERAL STYLES*/
+    *{font-family: Arial, sans-serif;}
+    #header-content, #footer-black{background-color:#000;}
+    .header-logo, .footer-logo, #social-icons{color:#fff;}
   </style>
 </head>
 
@@ -23,10 +40,10 @@
                 <table border="0" cellpadding="0" cellspacing="0" width="520" id="header-content">
                   <tr>
                     <td align="left" valign="middle">
-                      <h1>LOGO</h1>
+                      <h1 class="header-logo">LOGO</h1>
                     </td>
                     <td align="center" valign="middle">
-                      <h4>Share your ThermoSpas&reg;<br>Hot Tub Experience</h4>
+                      <h4 class="header-logo">Share your ThermoSpas&reg;<br>Hot Tub Experience</h4>
                     </td>
                   </tr>
                 </table>
@@ -108,14 +125,22 @@
               <td align="center" valign="top" id="footer">
                 <table border="0" cellpadding="0" cellspacing="0" width="520" id="footer-content">
                   <tr>
-                    <td align="center" valign="middle" id="footer-logo">
-                      <h4>LOGO</h4>
-                    </td>
-                  </tr>
+                    <td align="center" valign="middle">
+                      <table border="0" cellpadding="0" cellspacing="0" width="100%" id="footer-black">
 
-                  <tr>
-                    <td align="center" valign="middle" id="social-icons">
-                      poop poop poop poop
+                            <tr>
+                              <td align="center" valign="middle" id="footer-logo">
+                                <h4 class="footer-logo">LOGO</h4>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td align="center" valign="middle" id="social-icons">
+                                img img img img
+                              </td>
+                            </tr>
+
+                      </table>
                     </td>
                   </tr>
 
@@ -127,6 +152,7 @@
                       &copy; 2015 ThermoSpas Hot Tubs. All rights reserved.
                     </td>
                   </tr>
+
                 </table>
               </td>
             </tr>
