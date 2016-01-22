@@ -22,21 +22,26 @@
     *{font-family: Arial, sans-serif;}
     #header-content, #footer-black{background-color:#000;}
     .header-text, .footer-logo, #social-icons{color:#fff; padding: 10px;}
-    #quad-content {background-color: #aaa;}
     .padding-class {padding:20px}
-    #inner-content, #quad-content {border-left: 1px solid #000; border-right: 1px solid #000; }
+    #inner-content, #contain {border-left: 1px solid #000; border-right: 1px solid #000; }
+
+    /*header section*/
     #header-content {height: 70px;}
     .header-text {font-weight:lighter;}
-    .logo {padding-left: 20px;}
+    .logo {padding: 0 24px; border: 1px solid white; width: 100px; margin-left: 16px;}
 
     /*button styles*/
-    .CTA-button {background-color: #000; height: 30px; margin-top: 15px; margin-bottom: 15px;}
-    .CTA-button a {color: #fff; text-decoration: none; padding-left: 68px; padding-right: 68px;}
+    .CTA-button {background-color: #000; height: 30px; margin: 15px 0;}
+    .CTA-button a {color: #fff; text-decoration: none; padding: 0 68px;}
 
     /*quad section*/
     .quad-padding {padding: 20px; }
     .box {width: 55px; height: 55px; background-color: #000; margin: 2px;}
     .important {padding-left: 15px;}
+    #quad-content {background-color: #bbb;}
+    #quad {padding: 20px 0;}
+    .important h4 {margin-bottom: 10px; padding-top: 3px;}
+    .important p {font-size: 14px;}
 
     /*footer;*/
     #footer-info {font-size: 12px;}
@@ -58,7 +63,7 @@
 
                 <table border="0" cellpadding="0" cellspacing="0" width="520" id="header-content">
                   <tr>
-                    <td align="left" valign="middle">
+                    <td align="" valign="middle">
                       <h1 class="header-text logo">LOGO</h1>
                     </td>
                     <td align="center" valign="middle">
@@ -109,37 +114,43 @@
 
             <!-- section 3 -->
             <tr>
-              <td align="center" valign="top" id="quad">
-                <table border="0" cellpadding="0" cellspacing="0" width="520" id="quad-content">
-                  <tr>
-                    <td class="quad-padding">
-                      <table border="0" cellpadding="0" cellspacing="0" id="quad-sections">
-                        <tr>
-                          <td align="middle" valign="middle" width="25%">
 
-                            <table>
+              <table border="0" cellpadding="0" cellspacing="0" width="520" id="contain">
+                <tr>
+
+                    <td align="center" valign="top" id="quad">
+                      <table border="0" cellpadding="0" cellspacing="0" width="485" id="quad-content">
+                        <tr>
+                          <td class="quad-padding">
+                            <table border="0" cellpadding="0" cellspacing="0" id="quad-sections">
                               <tr>
-                                <td><div class="box"></div></td>
-                                <td><div class="box"></div></td>
-                              </tr>
-                              <tr>
-                                <td><div class="box"></div></td>
-                                <td><div class="box"></div></td>
+                                <td align="middle" valign="middle" width="25%">
+
+                                  <table>
+                                    <tr>
+                                      <td><div class="box"></div></td>
+                                      <td><div class="box"></div></td>
+                                    </tr>
+                                    <tr>
+                                      <td><div class="box"></div></td>
+                                      <td><div class="box"></div></td>
+                                    </tr>
+                                  </table>
+
+                                </td>
+
+                                <td align="left" valign="top" width="75%" class="important">
+                                  <h4>You're Important to Us</h4>
+                                  <p>Customer care is very important to us, which is why in post-service surveys, customers consistently rate their ThermoSpas&reg; experience as "extremely satisfied."</p>
+                                </td>
                               </tr>
                             </table>
-
-                          </td>
-
-                          <td align="left" valign="top" width="75%" class="important">
-                            <h4>You're Important to Us</h4>
-                            Customer care is very important to us, which is why in post-service surveys, customers consistently rate their ThermoSpas&reg; experience as "extremely satisfied."
                           </td>
                         </tr>
                       </table>
                     </td>
                   </tr>
                 </table>
-              </td>
             </tr>
 
             <!-- section 4 -->
