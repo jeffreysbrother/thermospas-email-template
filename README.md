@@ -8,11 +8,11 @@
 
 
 
-DIFFERENCES BETWEEN BUILD AND PSD:
+##DIFFERENCES BETWEEN BUILD AND PSD:##
 1. exact scaling not possible:
 	a. Chrome does not support media queries, so compromises to layout had to be made.
 	b. button size increased in order to increase usability in small viewports
 
 
-QUESTIONS:
+##QUESTIONS:##
 1. URL to hosted images? (social icons, etc)    { perhaps this is not our responsibility }
