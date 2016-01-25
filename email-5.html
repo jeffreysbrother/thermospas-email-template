@@ -24,7 +24,6 @@
 
     /*GENERAL STYLES*/
     *{font-family: Arial, sans-serif; line-height: 20px;}
-    html {font-size: 16px;}
     #header-content, #footer-black{background-color:#000;}
     .header-text, .footer-logo, #social-icons{color:#fff; }
     .padding-class {padding:20px 20px 0 20px}
@@ -60,12 +59,18 @@
     .circle {height: 21px; width: 21px; background-color: #bbb; display: inline-block; border-radius: 100%; margin-bottom: 15px;}
 
     /*shift fonts over to rems*/
-    .logo {font-size: 2rem;}
-    h4 {font-size: 1rem;}
-    p{font-size: 1rem;}
-    .important p {font-size: .75rem;}
-    #footer-info p {font-size: .7rem;}
-    .CTA-content a {font-size: 1.1rem;}
+    html {font-size: 18px;}
+    .logo {font-size: 2em;}
+    h4 {font-size: 1em;}
+    p{font-size: 1em;}
+    .important p {font-size: .75em;}
+    #footer-info p {font-size: .7em;}
+    .CTA-content a {font-size: 1.1em;}
+
+    .header-rem{font-size: 1.1rem;}
+    .inner-rem{font-size: 1rem;}
+    .quad-rem{font-size: 1.1rem;}
+    .footer-rem{font-size: 1.1rem}
 
   </style>
 </head>
@@ -80,7 +85,7 @@
 
             <!--~~~~~~~~~~~~~~~~~~ 1. HEADER SECTION ~~~~~~~~~~~~~~~~~~-->
             <tr>
-              <td align="center" valign="top" id="header">
+              <td align="center" valign="top" id="header" class="header-rem">
 
                 <table border="0" cellpadding="0" cellspacing="0" width="600" id="header-content">
                   <tr>
@@ -99,7 +104,7 @@
             <!--~~~~~~~~~~~~~~~~~~ 2. "CONTENT" SECTION ~~~~~~~~~~~~~~~~~~-->
             <tr>
               <td align="center" valign="top" id="content">
-                <table border="0" cellpadding="0" cellspacing="0" width="600" id="inner-content">
+                <table border="0" cellpadding="0" cellspacing="0" width="600" id="inner-content" class="inner-rem">
                   <tr>
                     <td align="left" valign="top" class="padding-class text1">
                       <p>Dear [Customer Name],</p>
@@ -140,7 +145,7 @@
               <table border="0" cellpadding="0" cellspacing="0" width="600" id="contain">
                 <tr>
 
-                    <td align="center" valign="top" id="quad">
+                    <td align="center" valign="top" id="quad" class="quad-rem">
                       <!-- set width of gray section below -->
                       <table border="0" cellpadding="0" cellspacing="0" width="564" id="quad-content">
                         <tr>
@@ -179,7 +184,7 @@
 
             <!--~~~~~~~~~~~~~~~~~~ 4. FOOTER SECTION ~~~~~~~~~~~~~~~~~~-->
             <tr>
-              <td align="center" valign="top" id="footer">
+              <td align="center" valign="top" id="footer" class="footer-rem">
                 <table border="0" cellpadding="0" cellspacing="0" width="600" id="footer-content">
                   <tr>
                     <td align="center" valign="middle" id="foot">
