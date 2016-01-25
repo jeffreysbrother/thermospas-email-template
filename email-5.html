@@ -11,8 +11,6 @@
     table{border-collapse:collapse;}
     img, a img{border:0; outline:none; text-decoration:none;}
     h1, h2, h3, h4, h5, h6, p {margin:0; padding:0;}
-    p{margin-top: 0; }
-
 
     /*CLIENT-SPECIFIC STYLES*/
     ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /*hotmail/outlook*/
@@ -26,12 +24,13 @@
     *{font-family: Arial, sans-serif; line-height: 22px;}
     #header-content, #footer-black{background-color:#000;}
     .header-text, .footer-logo, #social-icons{color:#fff; }
-    .padding-class {padding:.9em .9em 0 .9em}
+    .padding-class {padding: .9em;}
     #inner-content, #contain {border-left: 1px solid #000; border-right: 1px solid #000; }
     #bodyTable {margin: 20px 0;}   /* set top/bottom margin of containing table*/
     h4.right, .text1, .text2, .important p, #footer-info p {font-weight: bold;}
     p, h4 {color: #000;}   /* this rule resolves the issue of text displaying as purple in gmail */
-    p {margin-bottom: 15px;}
+    p {margin-bottom: 1em; }
+    td.padding-class p.last-paragraph {margin-bottom: 0;}
 
     /*header section styles*/
     #header-content {height: 5.2em;}
@@ -39,7 +38,7 @@
     .logo {padding: .5em 1.2em; border: 1px solid #fff; width: 3em; margin-left:.5em;}
 
     /*button styles*/
-    #CTA {margin-top: 15px; margin-bottom: 15px;}
+    #CTA {padding-top: 15px; padding-bottom: 15px;}
     .CTA-button {background-color: #000; height: 2.2em; margin: 1em 0; }
     .CTA-button a {color: #fff; text-decoration: none; padding: 0 3.6em;} /* <--set width of button with padding */
 
@@ -113,7 +112,7 @@
                     <td align="left" valign="top" class="padding-class text1">
                       <p>Dear [Customer Name],</p>
                       <p>Do you read online reviews? We do, and we appreciate opportunities to understand what you like most about our products and services and where there is room for improvement. Would you please help us understand how we’re doing by providing a review of your ThermoSpas&reg; product experience?</p>
-                      <p>On a scale of 0 to 10, how likely are you to recommend a ThermoSpas&reg; hot tub to a friend or family member?</p>
+                      <p class="last-paragraph">On a scale of 0 to 10, how likely are you to recommend a ThermoSpas&reg; hot tub to a friend or family member?</p>
                     </td>
                   </tr>
 
