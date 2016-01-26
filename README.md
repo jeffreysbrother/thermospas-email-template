@@ -10,8 +10,10 @@
 1. exact design ratios not possible:
   * Chrome does not support media queries, so compromises to layout had to be made
   * The original PSDs do not adhere to the convention of not exceeding a width of [approx.] 600px
-3. button size increased in order to increase usability in small viewports
-2. added underlined phone numbers that trigger the phone application, for increased usability
+2. button size increased in order to increase usability in small viewports
+3. added underlined phone numbers that trigger the phone application, for increased usability
+4. when the content of the "quad section" (the area with the gray background) exceeds a certain word-count, the 4 black squares no longer adhere to the desired design ratio.
+
 
 
 ##QUESTIONS:##
