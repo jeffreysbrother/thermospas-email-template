@@ -18,3 +18,9 @@
 
 ##QUESTIONS:##
 1. URL to hosted images? (social icons, etc)    { perhaps this is not our responsibility }
+
+
+##REQUIRED ACTIONS:##
+1. update all links
+2. generate necessary [content] placeholders (e.g. [Customer Name])
+3. replace all image placeholders (logo, social icons, other images)
