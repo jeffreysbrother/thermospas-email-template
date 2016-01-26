@@ -4,6 +4,7 @@
 3. placeholders for logos, social icons, and other images
 4. use of rems and ems so that each module can be resized independently
 5. thoroughly-documented, validated code
+6. CSS fix for superscript HTML entities (&reg;) -- line-height distortion is anticipated, eliminated
 
 
 ##DIFFERENCES BETWEEN BUILD AND PSD:##
