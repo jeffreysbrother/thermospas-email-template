@@ -15,6 +15,5 @@
 4. when the content of the "quad section" (the area with the gray background) exceeds a certain word-count, the 4 black squares no longer adhere to the desired design ratio.
 
 
-
 ##QUESTIONS:##
 1. URL to hosted images? (social icons, etc)    { perhaps this is not our responsibility }
