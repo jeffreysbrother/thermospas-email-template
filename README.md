@@ -4,14 +4,15 @@
 3. placeholders for logos, social icons, and other images
 4. use of rems and ems so that each module can be resized independently
 5. thoroughly-documented, validated code
-6. added underlined phone numbers that trigger the phone application, for increased usability
 
 
 
 ##DIFFERENCES BETWEEN BUILD AND PSD:##
-1. exact scaling not possible:
+1. exact design ratios not possible:
 	 * Chrome does not support media queries, so compromises to layout had to be made.
-	 * button size increased in order to increase usability in small viewports
+   * The original PSDs do not adhere to the convention of not exceeding a width of [approx.] 600px
+3. button size increased in order to increase usability in small viewports
+2. added underlined phone numbers that trigger the phone application, for increased usability
 
 
 ##QUESTIONS:##

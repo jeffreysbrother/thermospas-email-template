@@ -27,7 +27,14 @@
     .padding-class {padding: .9em;}
     #inner-content, #contain {border-left: 1px solid #000; border-right: 1px solid #000; }
     #bodyTable {margin: 20px 0;}   /* set top/bottom margin of containing table*/
-    h4.right, .text1, .text2, .important p, #footer-info p {font-weight: bold;}
+
+    /*.text1,
+    .text2,
+    .important p,
+    #footer-info p,*/
+    /*h4.right
+    {font-weight: bold;}*/
+
     p, h4 {color: #000;}   /* this rule resolves the issue of text displaying as purple in gmail */
     p {margin-bottom: 1em; }
     td.padding-class p.last-paragraph {margin-bottom: 0;}
@@ -44,6 +51,7 @@
 
     /*"content" section*/
     a.phone {color: #000; text-decoration: underline;}
+    p.small-bold {font-weight: bold; margin-bottom: 0;}
 
     /*quad section styles*/
     .quad-padding {padding: .7em;}
@@ -113,33 +121,27 @@
                       <p>Dear [Customer Name],</p>
                       <p>We are looking forward to our appointment with you on [Appointment Date and Time]. At that time a ThermoSpas® technician will be onsite to determine an ideal location for a hot tub and help you pick out the perfect ThermoSpas® model for you!</p>
 
-                      <p>Your ThermoSpas® Hot Tub</p>
+                      <p class="small-bold">Your ThermoSpas® Hot Tub</p>
                       <p>Before we arrive, please take a few moments to look through the wide range of options and features included in our brochure. From customized deluxe LED lighting and stereo options to variable jet packages, we’re ready to help build the hot tub of your dreams.</p>
 
-                      <p>What to Expect from Your Appointment</p>
+                      <p class="small-bold">What to Expect from Your Appointment</p>
                       <p>During the visit, our technician will inspect your location to make sure we can get a hot tub installed for you. Our technician will:</p>
 
-                    </td>
-                  </tr>
+                      <ul>
+                        <li>Measure passageways for clearance and accessibility</li>
+                        <li>Inspect decking and flooring for adequate structural support</li>
+                        <li>Evaluate electrical requirements</li>
+                        <li>Discuss cost-saving ideas on the location and design of your hot tub</li>
+                        <li>Offer safety suggestions on the installation and usage</li>
+                        <li>Provide a written report that will assist in shopping, regardless of which hot tub you eventually choose</li>
+                      </ul>
 
-                  <tr>
-                    <td align="center" valign="top" id="CTA">
-                      <table border="0" cellpadding="0" cellspacing="0" class="CTA-button">
-                        <tr>
-                          <td align="center" valign="middle" class="CTA-content">
-                            <a href="#" target="_blank">Leave a Review</a>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
+                      <p>To make sure we get the right hot tub selected, it is critical that all homeowners and individuals involved in the customization process be present for the entire visit. Our technician will be there for about 60 minutes to answer any questions you may have.</p>
 
-                  <tr>
-                    <td align="left" valign="top" class="padding-class text2">
-                      <p>If you have any immediate concerns that we can help resolve, please contact a member of our Customer Service Team at <a class="phone" href="tel:1-800-876-0158">(800) 876-0158</a>.</p>
-                      <p>Thank you for your participation and for being a ThermoSpas customer!</p>
-                      <p>The ThermoSpas Team</p>
-                      <p><a class="phone" href="tel:1-800-876-0158">(800) 876-0158</a></p>
+                      <p>Thank you and please call us with any questions!</p>
+
+                      <p>The ThermoSpas Team <br /><a class="phone" href="tel:1-800-876-0158">(800) 876-0158</a> Option 7</p>
+
                     </td>
                   </tr>
                 </table>
