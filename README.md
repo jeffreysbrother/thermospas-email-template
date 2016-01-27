@@ -20,9 +20,11 @@
 ##QUESTIONS, POSSIBLE ISSUES:##
 1. URL to hosted images? (social icons, etc)    { perhaps this is not our responsibility }
 2. Late in the testing phase, Gmail started to give me this message: "This message has been modified to fit your screen. Tap here to show original." I'm not sure what would cause this to start happening. When this occurs, the email is not displayed properly.
+3. The email template will break in Gmail if the HTML entity &-dash-; is used.
 
 
 ##REQUIRED ACTIONS:##
 1. update all links
 2. generate necessary [content] placeholders (e.g. [Customer Name])
 3. replace all image placeholders (logo, social icons, other images)
+4. put all CSS inline, test again after updating any content, images, or links
