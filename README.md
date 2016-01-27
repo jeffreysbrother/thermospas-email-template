@@ -14,10 +14,12 @@
 2. button size increased in order to increase usability in small viewports
 3. added underlined phone numbers that trigger the phone application, for increased usability
 4. when the content of the "quad section" (the area with the gray background) exceeds a certain word-count, the 4 black squares no longer adhere to the desired design ratio.
+5. A different font has been used for the HTML build since only a limited number of fonts are suggested for HTML email
 
 
-##QUESTIONS:##
+##QUESTIONS, POSSIBLE ISSUES:##
 1. URL to hosted images? (social icons, etc)    { perhaps this is not our responsibility }
+2. Late in the testing phase, Gmail started to give me this message: "This message has been modified to fit your screen. Tap here to show original." I'm not sure what would cause this to start happening. When this occurs, the email is not displayed properly.
 
 
 ##REQUIRED ACTIONS:##
