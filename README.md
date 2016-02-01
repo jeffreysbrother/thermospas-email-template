@@ -5,6 +5,7 @@
 4. thoroughly-documented, validated code
 5. CSS fix for superscript HTML entities (&reg;) -- line-height distortion is anticipated, eliminated
 6. Absolute paths to hosted images (social icons, etc)
+7. Thoroughly-tested on desktop (Gmail and Thunderbird in Chrome, Edge, FireFox, Internet Explorer 11) and mobile (Gmail app, iOS Mail app)
 
 
 ##DIFFERENCES BETWEEN BUILD AND PSD:##
