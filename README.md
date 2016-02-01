@@ -1,10 +1,10 @@
 ##FEATURES:##
 1. table-based, modular HTML email (will ultimately have only inline styles)
 2. no media queries; width of 600px
-3. placeholders for logos, social icons, and other images
-4. use of rems and ems so that each module can be resized independently
-5. thoroughly-documented, validated code
-6. CSS fix for superscript HTML entities (&reg;) -- line-height distortion is anticipated, eliminated
+3. use of rems and ems so that each module can be resized independently
+4. thoroughly-documented, validated code
+5. CSS fix for superscript HTML entities (&reg;) -- line-height distortion is anticipated, eliminated
+6. Absolute paths to hosted images (social icons, etc)
 
 
 ##DIFFERENCES BETWEEN BUILD AND PSD:##
@@ -17,14 +17,10 @@
 5. A different font has been used for the HTML build since only a limited number of fonts are suggested for HTML email
 
 
-##QUESTIONS, POSSIBLE ISSUES:##
-1. URL to hosted images? (social icons, etc)    { perhaps this is not our responsibility }
-2. Late in the testing phase, Gmail started to give me this message: "This message has been modified to fit your screen. Tap here to show original." I'm not sure what would cause this to start happening. When this occurs, the email is not displayed properly.
-3. The email template will break in Gmail if the HTML entity &-dash-; is used.
+##POSSIBLE FUTURE ISSUES:##
+1. Late in the testing phase, Gmail started to give me this message: "This message has been modified to fit your screen. Tap here to show original." When this occurs, the email is not displayed properly. I've included a fix for this issue&mdash;a snippet just before the closing body tag&mdash;which should not be removed.
+2. The email template will break in Gmail if the HTML entity &-dash-; is used.
 
 
 ##REQUIRED ACTIONS:##
-1. update all links
-2. generate necessary [content] placeholders (e.g. [Customer Name])
-3. replace all image placeholders (logo, social icons, other images)
-4. put all CSS inline, test again after updating any content, images, or links
+1. put all CSS inline, test again after updating any content, images, or links
