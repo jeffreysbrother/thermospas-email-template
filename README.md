@@ -20,7 +20,7 @@
 
 ##POSSIBLE FUTURE ISSUES:##
 1. Late in the testing phase, Gmail started to give me this message: "This message has been modified to fit your screen. Tap here to show original." When this occurs, the email is not displayed properly. I've included a fix for this issue&mdash;a snippet just before the closing body tag&mdash;which should not be removed.
-2. The email template will break in Gmail if the HTML entity &-dash-; is used.
+2. The email template will break in Gmail if the HTML dash entity is used.
 3. I initially sized the social icons in the footer with a height and width property (in ems), but ultimately eliminated the height property and switched to pixels...this resolved an inconsistency in how the iOS Mail app was displaying these images.
 
 
