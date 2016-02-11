@@ -20,9 +20,9 @@
 
 
 ##POSSIBLE FUTURE ISSUES:##
-1. The email template will break in Gmail if the HTML dash entity is used.
+1. The email template will break in Gmail if the HTML dash entity is used in the markup.
 2. I initially sized the social icons in the footer with a height and width property (in ems), but ultimately eliminated the height property and switched to pixels...this resolved an inconsistency in how the iOS Mail app was displaying these images.
-3. The Gmail auto resize feature (nightmare) was initially resolved by implementing the HTML snippet mentioned above. However, further testing shows that the results are inconsistent. The initial test with SendMeric will sometimes show the snippet to be ineffective...but a second test (sent immediately after the first) will display properly, even when no code has been updated. I"m still not sure what's causing this issue.
+3. The Gmail auto resize feature (nightmare) was initially resolved by implementing the HTML snippet mentioned above. However, further testing shows that the results are inconsistent. The initial test with Sendmetric will sometimes show the snippet to be ineffective...but a second test (sent immediately after the first) will display properly, even when no code has been updated. I'm still not sure what's causing this issue.
 
 
 ##REQUIRED ACTIONS:##
