@@ -6,6 +6,7 @@
 5. CSS fix for superscript HTML entities (&reg;) -- line-height distortion is anticipated, eliminated
 6. Absolute paths to hosted images (social icons, etc)
 7. Thoroughly-tested on desktop (Gmail and Thunderbird in Chrome, Edge, FireFox, Internet Explorer 11) and mobile (Gmail app, iOS Mail app)
+8. Includes an HTML snippet that fixes Gmail's attempt to automatically resize fonts. A discussion of this can be found [here](http://freshinbox.com/blog/gmail-on-ios-increases-font-size-on-some-emails/). The code is included just before the closing body tag.
 
 
 ##DIFFERENCES BETWEEN BUILD AND PSD:##
@@ -19,10 +20,12 @@
 
 
 ##POSSIBLE FUTURE ISSUES:##
-1. Late in the testing phase, Gmail started to give me this message: "This message has been modified to fit your screen. Tap here to show original." When this occurs, the email is not displayed properly. I've included a fix for this issue&mdash;a snippet just before the closing body tag&mdash;which should not be removed.
-2. The email template will break in Gmail if the HTML dash entity is used.
-3. I initially sized the social icons in the footer with a height and width property (in ems), but ultimately eliminated the height property and switched to pixels...this resolved an inconsistency in how the iOS Mail app was displaying these images.
+1. The email template will break in Gmail if the HTML dash entity is used.
+2. I initially sized the social icons in the footer with a height and width property (in ems), but ultimately eliminated the height property and switched to pixels...this resolved an inconsistency in how the iOS Mail app was displaying these images.
+3. The Gmail auto resize feature (nightmare) was initially resolved by implementing the HTML snippet mentioned above. However, further testing shows that the results are inconsistent. The initial test with SendMeric will sometimes show the snippet to be ineffective...but a second test (sent immediately after the first) will display properly, even when no code has been updated. I"m still not sure what's causing this issue.
 
 
 ##REQUIRED ACTIONS:##
-1. put all CSS inline, test again after updating any content, images, or links
+1. put all CSS inline
+2. update placeholders with content, e.g. [AP Time] and [Customer Name]
+3. test again after updating any content, images, or links
